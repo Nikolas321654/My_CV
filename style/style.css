@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../style/fonts/mainFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: #28b428;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'CustomFont', serif;
+    color: #28b428;
+    font-size: 20px;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.full-name {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    padding-top: 34px;
+
+}
+
+.main-info {
+    padding-left: 15px;
+}
+
+p {
+    padding-left: 15px;
+    white-space: normal;
+    overflow: visible;
+    font-size: 20px;
+}
+
+.more-info {
+    padding-left: 15px;
+    width: max-content;
+    white-space: nowrap;
+}
+
+.info_buttons {
+    background-color: #28b428;
+    color: #000000;
+    font-size: 15px;
+    border: none;
+    padding: 1px 3px;
+    font-family: 'CustomFont', serif;
+}
+
+.info_buttons:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
